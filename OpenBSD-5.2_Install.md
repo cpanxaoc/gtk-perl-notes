@@ -1,5 +1,6 @@
 # OpenBSD 5.2 Install Notes #
 
+## Installation ##
 - When the OS boots from the CD, press `I` to install
 - Hit `<Enter>` to accept the default keyboard layout
 - Enter in the short hostname
@@ -20,7 +21,19 @@
 - Confirm the password, then hit `<Enter>` to continue
 - Hit `<Enter>` to disable `sshd` logins as user `root`
 - Hit `<Enter>` to use the timezone listed (US/Pacific)
- 
+- Hit `<Enter>` to use the disk listed (wd0)
+- Hit `<Enter>` to use DUIDs (disk unique IDs)
+- Hit `<Enter>` to use the whole disk
+- Hit `<Enter>` to use the partitions chosen by auto layout
+- Hit `<Enter>` to use disk sets on CD (the ISO image is mounted to the
+  virtual machine)
+- Hit `<Enter>` to use default CD-ROM drive (cd0)
+- Hit `<Enter>` to use default path to disk sets (5.2/i386)
+- Hit `<Enter>` to accept the default disk sets
+- Hit `<Enter>` to finish installing from disk sets
+- Issue the `reboot` command to reboot the system
+
+## Installing ports/packages ##
 
 
 # vim: filetype=markdown shiftwidth=2 tabstop=2
