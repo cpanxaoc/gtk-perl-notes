@@ -34,6 +34,19 @@
 - Issue the `reboot` command to reboot the system
 
 ## Installing ports/packages ##
-
+- Log in to the machine with the non-`root` account
+- Edit the `sudoers` file so that the non-`root` user can manage the system
+  - Uncomment the line `#%wheel ALL=(ALL) SETENV: ALL`
+- export `PKG_PATH` to point to an FTP mirror:
+  - `export PKG_PATH=http://ftp5.usa.openbsd.org/pub/OpenBSD/5.2/packages/$(machine -a)`
+- Install GTK/Glib/Pango/Cairo libraries
+- Install Perl and friends
+  - ExtUtils::PkgConfig
+- Install modules from CPAN
+  - ExtUtils::MakeMaker
+  - Pango
+  - Cairo
+  - Glib
+  - Gtk2
 
 # vim: filetype=markdown shiftwidth=2 tabstop=2
