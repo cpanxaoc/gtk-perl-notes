@@ -1,5 +1,12 @@
 # OpenBSD 5.2 Install Notes #
 
+## Mirror Info ##
+Mirror URL
+- http://ftp5.usa.openbsd.org
+
+Packages
+- http://ftp5.usa.openbsd.org/pub/OpenBSD/5.2/packages/i386/
+
 ## Installation ##
 - When the OS boots from the CD, press `I` to install
 - Hit `<Enter>` to accept the default keyboard layout
