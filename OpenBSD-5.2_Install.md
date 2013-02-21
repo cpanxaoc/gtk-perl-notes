@@ -44,16 +44,28 @@ Packages
 - Log in to the machine with the non-`root` account
 - Edit the `sudoers` file so that the non-`root` user can manage the system
   - Uncomment the line `#%wheel ALL=(ALL) SETENV: ALL`
-- export `PKG_PATH` to point to an FTP mirror:
+- Export `PKG_PATH` to point to an FTP mirror:
   - `export PKG_PATH=http://ftp5.usa.openbsd.org/pub/OpenBSD/5.2/packages/$(machine -a)`
-- Install GTK/Glib/Pango/Cairo libraries
-- Install Perl and friends
-  - ExtUtils::PkgConfig
+- Get a list of available packages with:
+  - `lynx --dump $PKG_PATH | grep "$PKG_PATH" | grep 'tgz$' \
+    | sed 's!.*\/\(.*\).tgz$!\1!;'`
+- Find and install the GTK/Glib/Pango/Cairo libraries
+  - `sudo pkg_add -v glib2-2.32.4 gtk+2-2.24.11 cairo-1.10.2p3 pango-1.30.1`
+- Some extra tools and modules
+  - `sudo pkg_add -v screen-4.0.3p2 p5-YAML-0.73 p5-YAML-XS-0.38p0
+    p5-libwww-5.837`
 - Install modules from CPAN
+  - ExtUtils::Depends
   - ExtUtils::MakeMaker
-  - Pango
+  - ExtUtils::PkgConfig
+  - Test::Number::Delta
   - Cairo
   - Glib
+  - Pango
   - Gtk2
+
+## Extra OpenBSD Commands ##
+- `pkg_info` - Show all of the packages installed on a system
+- `pkg_info -L <package name>` - List files in a package
 
 # vim: filetype=markdown shiftwidth=2 tabstop=2
