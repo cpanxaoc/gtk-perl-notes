@@ -72,9 +72,6 @@ lynx -dump "http://git.gnome.org/browse/" | grep perl | grep -P "\d{2,4}\." |
 awk -F'/' '{ print $5; }' | uniq | sort | egrep -v
 "gimp-perl|gnome-perl-introspection"
 
-## Todo ##
-- Automate the release process???
-
 ## Sourceforge News Support Page ##
 - https://sourceforge.net/apps/trac/sourceforge/wiki/News
 
