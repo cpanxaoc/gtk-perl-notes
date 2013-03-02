@@ -29,7 +29,9 @@
 
 ## List of files to change, by module ##
   - Cairo; NEWS, lib/Cairo.pm, Makefile.PL (stable/unstable flag)
-  - Glib; NEWS, lib/Glib.pm, Makefile.PL (stable/unstable flag, unstable block
+  - Glib; NEWS, lib/Glib.pm, lib/Glib/CodeGen.pm, lib/Glib/GenPod.pm,
+    lib/Glib/MakeHelper.pm, lib/Glib/Object/Subclass.pm,
+    lib/Glib/ParseXSDoc.pm, Makefile.PL (stable/unstable flag, unstable block
     that gets output when an unstable release is made)
   - Glib::Object::Introspection; NEWS, lib/Glib/Object/Introspection.pm,
     Makefile.PL (stable/unstable flag)
