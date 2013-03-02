@@ -55,15 +55,13 @@
   - make install
 
 ## Using the testing copy of Glib to build another module ##
-  - PERL5LIB=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
-    perl Makefile.PL
-  - PERL5LIB=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
-    DYLD_LIBRARY_PATH=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
-    time make
-  - PERL5LIB=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
-    DYLD_LIBRARY_PATH=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
-    time make test
+- PERL5LIB=/tmp/Glib-1.2XX/lib/perl5/darwin-thread-multi-2level \
+  perl Makefile.PL
+- time make
+- time make test
 - FIXME: how do you build the test libraries that GOI uses for testing?
+  - Something in g-in-something is not building correctly
+  - Disable output redirection in Makefile.PL to see the actual error
 
 ## Release Inputs ##
 - E-mails to developers for submissions
