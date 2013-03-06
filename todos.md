@@ -11,11 +11,12 @@ By Brian Manning (PAUSE ID: XAOC)
   - Build release tarballs
   - Use Vagrant to test
 - Release Helper
+  - Checkѕ for correct versions of ExtUtils::MakeMaker and CPAN::Meta
   - Generates release e-mail
     - Populates release info from NEWS file
     - Checks git link
     - Checks sourceforge download link
-    - Checks version numbers
-
+    - Checks version numbers in module files, NEWS file, and anywhere else it
+      needs to be checked
 
 # vim: filetype=markdown shiftwidth=2 tabstop=2
