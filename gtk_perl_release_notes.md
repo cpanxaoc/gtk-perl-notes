@@ -77,7 +77,7 @@ awk -F'/' '{ print $5; }' | uniq | sort | egrep -v
 
 ## Gnome.org Links ##
 - https://live.gnome.org/MaintainersCorner/Releasing
-- https://live.gnome.org/ThreePointThree (Calendar)
+- https://live.gnome.org/ThreePointSeven (Calendar)
 - https://live.gnome.org/Git/Developers
 
 ## Sections to check for in the README file ##
