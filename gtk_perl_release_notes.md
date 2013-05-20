@@ -21,6 +21,8 @@
 - Upload
   - Sourceforge
   - PAUSE
+    - Check for release version using `perl -MCPAN -e shell` after you get the
+      confirmation e-mails from PAUSE
 - Announce
   - Verify URLs to Git repo and download tarballs in any posts
   - mailing list
@@ -47,8 +49,8 @@
 
 ## Building a copy of Glib for testing ##
 - Glib
-  - tar -zxvf Glib-1.2XX.tar.gz
-  - cd Glib-1.2XX
+  - tar -zxvf Glib-1.3XX.tar.gz
+  - cd Glib-1.3XX
   - perl Makefile.PL INSTALL_BASE=/tmp/Glib-1.2XX
   - time make
   - time make test
