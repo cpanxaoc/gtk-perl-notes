@@ -28,6 +28,8 @@
   - mailing list
   - Sourceforge - https://sourceforge.net/p/gtk2-perl/news/
   - Freshmeat - https://freecode.com/projects/gtk2-perl/releases
+  - cpanxaoc account on Twitter
+    - use bit.ly to shorten URLs
 
 ## List of files to change, by module ##
   - Cairo; NEWS, lib/Cairo.pm, Makefile.PL (stable/unstable flag)
