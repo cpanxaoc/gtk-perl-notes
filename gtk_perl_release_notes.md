@@ -21,11 +21,15 @@
 - Upload
   - Sourceforge
   - PAUSE
+    - Check for release version using `perl -MCPAN -e shell` after you get the
+      confirmation e-mails from PAUSE
 - Announce
   - Verify URLs to Git repo and download tarballs in any posts
   - mailing list
   - Sourceforge - https://sourceforge.net/p/gtk2-perl/news/
   - Freshmeat - https://freecode.com/projects/gtk2-perl/releases
+  - cpanxaoc account on Twitter
+    - use bit.ly to shorten URLs
 
 ## List of files to change, by module ##
   - Cairo; NEWS, lib/Cairo.pm, Makefile.PL (stable/unstable flag)
@@ -47,8 +51,8 @@
 
 ## Building a copy of Glib for testing ##
 - Glib
-  - tar -zxvf Glib-1.2XX.tar.gz
-  - cd Glib-1.2XX
+  - tar -zxvf Glib-1.3XX.tar.gz
+  - cd Glib-1.3XX
   - perl Makefile.PL INSTALL_BASE=/tmp/Glib-1.2XX
   - time make
   - time make test
@@ -77,7 +81,7 @@ awk -F'/' '{ print $5; }' | uniq | sort | egrep -v
 
 ## Gnome.org Links ##
 - https://live.gnome.org/MaintainersCorner/Releasing
-- https://live.gnome.org/ThreePointThree (Calendar)
+- https://live.gnome.org/ThreePointSeven (Calendar)
 - https://live.gnome.org/Git/Developers
 
 ## Sections to check for in the README file ##
