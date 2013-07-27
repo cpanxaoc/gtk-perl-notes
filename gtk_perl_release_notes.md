@@ -1,4 +1,6 @@
 ## Release Checklist ##
+- Check bugs in distributions, see if anything can quickly be fixed
+  - https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=XAOC
 - Check copyright date in all files that have changed in the current year
 - Update the FSF address in all license blurbs (RT#72664)
   - 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
