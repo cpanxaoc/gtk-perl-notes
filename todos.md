@@ -5,6 +5,15 @@ By Brian Manning (PAUSE ID: XAOC)
 - Fix compiler warnings under LLVM on Mac OS X
 - Fix test issues under Win32
 - Automate updating MacPorts Perl modules in public.git repo
+- Make a link to some getting started docs on the website
+- Describe what packages are required by which distros
+- Add a "How do I..." section on the front page, and link to different things,
+  like the git repos, getting started docs, mailing list, list of modules
+- Add the `Gtk3` module to the list of modules on the homepage
+- Add a "how to get started with `Gtk3`" section
+- change _gtk2-perl Git Repo_ link to _Git Repo_ on the right hand nav bar
+- Change the first paragraph to say `Gtk+ 2.x and 3.x`
+- Add links to `Gtk3` tutorials posted on the web
 
 ## Automate the release process??? ##
   - Updating the version numbers in the correct files
