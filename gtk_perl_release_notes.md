@@ -1,7 +1,15 @@
 ## Release Checklist ##
+- Check bugs in distributions, see if anything can quickly be fixed
+  - RT: https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=XAOC
+  - Bugzilla: http://tinyurl.com/ootsv9n
 - Check copyright date in all files that have changed in the current year
+- CPAN Meta-Spec v2 - Check to see if the project has an updated `%meta_merge`
+  structure in `Makefile.PL`; see `Cairo` commit ID `17f2def7` for an idea of
+  what changes need to me made
+- `README` - Check to see if the project has an updated `README` file; see
+  `Cairo` commit ID `081061c` for the changes made
 - Update the FSF address in all license blurbs (RT#72664)
-  - 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+  - *51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA*
 - Update the NEWS file using the contents of the commit logs 
 - Update the module versions in the .pm files and in some of the README files
   - Go over the list of files that need to be changed for each project (below)
