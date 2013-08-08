@@ -14,6 +14,10 @@ By Brian Manning (PAUSE ID: XAOC)
 - change _gtk2-perl Git Repo_ link to _Git Repo_ on the right hand nav bar
 - Change the first paragraph to say `Gtk+ 2.x and 3.x`
 - Add links to `Gtk3` tutorials posted on the web
+  - https://github.com/dave-theunsub/gtk3-perl-demos
+  - https://github.com/cpanxaoc/gtk3-perl-demos
+  - https://github.com/kevinphilp/Perl-gtk3-Tutorial
+  - https://github.com/cpanxaoc/Perl-gtk3-Tutorial
 
 ## Automate the release process??? ##
   - Updating the version numbers in the correct files
