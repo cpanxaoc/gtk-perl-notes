@@ -8,6 +8,9 @@
   what changes need to me made
 - `README` - Check to see if the project has an updated `README` file; see
   `Cairo` commit ID `081061c` for the changes made
+- SUPPORT section in the POD
+  - Add sections for Bugs, Feature Requests, and Source code using POD
+  - See `ExtUtils::Depends` for an example
 - Update the FSF address in all license blurbs (RT#72664)
   - *51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA*
 - Update the NEWS file using the contents of the commit logs 
