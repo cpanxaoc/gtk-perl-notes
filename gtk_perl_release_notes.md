@@ -39,7 +39,7 @@
   - mailing list
   - Sourceforge - https://sourceforge.net/p/gtk2-perl/news/
   - Freshmeat - https://freecode.com/projects/gtk2-perl/releases
-  - cpanxaoc account on Twitter
+  - *cpanxaoc* and *GTKPerl* accounts on Twitter
     - use bit.ly to shorten URLs
 
 ## List of files to change, by module ##
