@@ -7,6 +7,9 @@ By Brian Manning (PAUSE ID: XAOC)
 - Automate updating MacPorts Perl modules in public.git repo
 - Make a link to some getting started docs on the website
 - Describe what packages are required by which distros
+
+## Website ##
+- Link to twitter account
 - Add a "How do I..." section on the front page, and link to different things,
   like the git repos, getting started docs, mailing list, list of modules
 - Add the `Gtk3` module to the list of modules on the homepage
@@ -31,6 +34,7 @@ By Brian Manning (PAUSE ID: XAOC)
     - CPAN
     - Sourceforge
   - Generating the e-mail for the next release due date
+  - Getting `bit.ly` URLs for twits
 - Release Helper
   - Checkѕ for correct versions of ExtUtils::MakeMaker and CPAN::Meta
   - Generates release e-mail
