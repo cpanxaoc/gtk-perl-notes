@@ -5,7 +5,7 @@ By Brian Manning (PAUSE ID: XAOC)
 - [gtk_perl_release_notes.md](https://github.com/cpanxaoc/notes/blob/master/gtk_perl_release_notes.md) - My notes on building release tarballs for the GTK-Perl project
 
 ## Current bug counts ##
-Last updated: 28Jul2013
+Last updated: 26Aug2013
 
 URL to bug lists in RT:
 - https://rt.cpan.org/Dist/ByMaintainer.html?Name=XAOC
@@ -16,8 +16,6 @@ URL to bug lists in RT:
   - Both have patches/fixes waiting
 - ExtUtils::PkgConfig: 2 RT bugs
 - Glib: 7 RT bugs
-  - One of the bugzilla bugs can be closed 
-    - https://bugzilla.gnome.org/show_bug.cgi?id=690464
 - Glib::Object::Introspection: 1 RT bug
 - Gnome2: 1 RT bug
   - Has patch
