@@ -51,6 +51,8 @@
   - Glib::Object::Introspection; NEWS, lib/Glib/Object/Introspection.pm,
     Makefile.PL (stable/unstable flag)
     - See instructions below for building Glib for testing
+  - Gnome2; NEWS, Gnome2.pm, Makefile.PL (stable/unstable flag)
+  - Gnome2::VFS; NEWS, VFS.pm, Makefile.PL (stable/unstable flag)
   - Gnome2::Vte; NEWS, Vte.pm, Makefile.PL (stable/unstable flag)
   - GStreamer; NEWS, lib/GStreamer.pm, Makefile.PL (stable/unstable flag)
   - Gtk2; NEWS, lib/Gtk2.pm, Makefile.PL (stable/unstable flag)
