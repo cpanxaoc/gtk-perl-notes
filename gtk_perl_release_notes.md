@@ -61,6 +61,9 @@
   - Pango; NEWS, lib/Pango.pm, Makefile.PL (stable/unstable flag)
   - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
     Makefile.PL (stable/unstable flag)
+  - ExtUtils::Depends; Changes, lib/ExtUtils/Depends.pm
+    - **NOTE:** You need to generate the `MANIFEST` file using `make manifest`
+      after `perl Makefile.PL` prior to running `make dist`
 
 ## Building a copy of Glib for testing ##
 - Glib
