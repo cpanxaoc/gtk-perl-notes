@@ -57,7 +57,7 @@
   - GStreamer; NEWS, lib/GStreamer.pm, Makefile.PL (stable/unstable flag)
   - Gtk2; NEWS, lib/Gtk2.pm, Makefile.PL (stable/unstable flag)
     - See instructions below for building Glib for testing
-  - Gtk3; NEWS, Makefile.PL (stable/unstable flag)
+  - Gtk3; nothing (Dist::Zilla takes care of all of the files)
   - Pango; NEWS, lib/Pango.pm, Makefile.PL (stable/unstable flag)
   - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
     Makefile.PL (stable/unstable flag)
