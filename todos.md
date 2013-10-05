@@ -22,7 +22,7 @@ By Brian Manning (PAUSE ID: XAOC)
   - https://github.com/kevinphilp/Perl-gtk3-Tutorial
   - https://github.com/cpanxaoc/Perl-gtk3-Tutorial
 
-## Automate the release process??? ##
+## Release Automation Ideas ##
   - Updating the version numbers in the correct files
   - Creating the tarball
   - Unpacking and building the tarball
@@ -43,6 +43,11 @@ By Brian Manning (PAUSE ID: XAOC)
     - Checks sourceforge download link
     - Checks version numbers in module files, NEWS file, and anywhere else it
       needs to be checked
+
+## Release Automation TODOs ##
+- Generate release e-mail bodies
+  - Include `bit.ly` shortened URLs
+- Generate Twitter messages with `bit.ly` URLs
 
 ## Continuous Build ##
 - Build in Jenkins
