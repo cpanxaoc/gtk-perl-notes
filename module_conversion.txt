@@ -1,0 +1,5 @@
+[width="80%"]
+|========================================================================
+|Module Name|Updated README|CPAN META|Updated FSF address|license blurbs
+| Cairo     |Yes           |Yes      |Yes                |Yes
+|========================================================================
