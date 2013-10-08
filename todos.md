@@ -24,6 +24,10 @@ By Brian Manning (PAUSE ID: XAOC)
 
 ## Release Automation Ideas ##
   - Updating the version numbers in the correct files
+  - Copying out POD docs to a common POD docs directory for uploading to the
+    Gtk-Perl website
+    - Use `Dist::Zilla::Plugin::Run` to copy out/run a POD->HTML converter on
+      the POD files at the correct time?
   - Creating the tarball
   - Unpacking and building the tarball
   - Generating the release announcement e-mail
