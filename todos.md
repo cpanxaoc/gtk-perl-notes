@@ -31,6 +31,7 @@ By Brian Manning (PAUSE ID: XAOC)
   - Creating the tarball
   - Unpacking and building the tarball
   - Generating the release announcement e-mail
+    - Add MD5/SHA1 checksums for downloaded files
   - Generating the release announcement blurbs for Sourceforge and Freshmeat
     - Posting said blurbs on Sourceforge and Freshmeat
     - Checking that the blurbs posted correctly on Sourceforge and Freshmeat
