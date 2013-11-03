@@ -1,7 +1,7 @@
 [width="80%"]
 |========================================================================
 |Module Name|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
-| Cairo           | Yes | Yes | Yes | Yes
+| Cairo           | No (needs merging) | No (needs merging) | Yes | Yes
 | Cairo::GObject  | Yes | Yes | Yes | Yes
 | Gtk2            | No  | Yes | No  | No
 | Gtk2::Vte       | No  | Yes | Yes | No
