@@ -60,6 +60,10 @@
   - Gtk3; **DO NOT MAKE A RELEASE COMMIT**, Dist::Zilla takes care of all of
     the files, as well as tagging and making the release commit and push to
     `git.gnome.org`
+    - Just call `dzil release` after updating the `NEWS` and `dist.ini`
+      files, but _DO NOT COMMIT THE UPDATED FILES_
+      - Part of `dzil release` is to make a "release commit" with these files
+        automagically
   - Pango; NEWS, lib/Pango.pm, Makefile.PL (stable/unstable flag)
   - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
     Makefile.PL (stable/unstable flag)
