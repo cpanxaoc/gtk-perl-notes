@@ -23,6 +23,7 @@ By Brian Manning (PAUSE ID: XAOC)
   - https://github.com/cpanxaoc/Perl-gtk3-Tutorial
 
 ## Release Automation Ideas ##
+  - Runs `git pull` on all source repos and mails a list of changed repos
   - Updating the version numbers in the correct files
   - Copying out POD docs to a common POD docs directory for uploading to the
     Gtk-Perl website
