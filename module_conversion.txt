@@ -1,8 +1,38 @@
 [width="80%"]
 |========================================================================
-|Module Name|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
-| Cairo           | No (needs merging) | No (needs merging) | Yes | Yes
-| Cairo::GObject  | Yes | Yes | Yes | Yes
-| Gtk2            | No  | Yes | No  | No
-| Gtk2::Vte       | No  | Yes | Yes | No
-| ========================================================================
+|Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
+|Cairo                        |Done | Yes   | Yes   | Yes     | Yes
+|Cairo::GObject               |     | *No*  | *No*  | Yes     | Yes
+|Champlain                    |     | No    | No    | Partial | No
+|Clutter                      |     | No    | *No*  | Yes     | *Not needed*
+|ExtUtils::Depends            |Done | *Yes* | Yes   | *No*    | *No*
+|Glib::Object::Introspection  |     | No    | Yes   | No      | No
+|Gtk2                         |     | No    | Yes   | No      | No
+|Gtk2::Vte                    |     | No    | Yes   | Yes     | No
+|========================================================================
+Entries in the above table in *boldface* have notes in the below *Notes:*
+section.
+
+Notes:
+++++++
+* `Cairo::GObject`
+  * Changes for _Updated README_ and _CPAN META_ are committed to personal
+    GitHub (https://github.com/cpanxaoc/perl-Cairo-GObject.git)
+* `Champlain`
+  * `README` needs address updated
+* `Clutter`
+  * `Clutter` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
+    by `Dist::Zilla` modules/plugins
+  * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
+  * No long license blurbs were found in `Clutter`
+* `ExtUtils::Depends`
+  * The `README` in `ExtUtils::Depends` was updated with mailing list, bug
+    tracker, and Git URLs, although the format of the update doesn't match the
+    format in `Cairo`
+  * The FSF's address is never used in any of the files in
+    `ExtUtils::Depends`, so updating the address and shortening the blurb
+    doesn't make sense
+
+----
+// vim: set syntax=asciidoc shiftwidth=2 tabstop=2:
+----
