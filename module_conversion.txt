@@ -1,4 +1,5 @@
 [width="80%"]
+[options="header"]
 |========================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
 |Cairo                        |Done | Yes     | Yes     | Yes     | Yes
