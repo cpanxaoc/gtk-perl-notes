@@ -1,27 +1,42 @@
 [width="80%"]
 |========================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
-|Cairo                        |Done | Yes   | Yes   | Yes     | Yes
-|Cairo::GObject               |     | *No*  | *No*  | Yes     | Yes
-|Champlain                    |     | No    | No    | Partial | No
-|Clutter                      |     | No    | *No*  | Yes     | *Not needed*
-|ExtUtils::Depends            |Done | *Yes* | Yes   | *No*    | *No*
-|ExtUtils::PkgConfig          |     | No    | Yes   | Yes     | *No*
-|Glib                         |     | Yes   | Yes   | *Yes*   | No
-|Glib::IO                     |     | No    | *No*  | No      | *Not needed*
-|Glib::Object::Introspection  |     | Yes   | Yes   | Yes     | No
-|Gnome2::Canvas               |     | No    | No    | No      | No
-|Gnome2::Dia                  |     | No    | No    | No      | No
-|Gnome2::GConf                |     | No    | No    | No      | No
-|Gnome2                       |     | No    | Yes   | Yes     | No
-|Gnome2::PanelApplet          |     | No    | No    | Yes     | No
-|Gnome2::Print                |     | *No*  | *No*  | *No*    | *No*
-|Gnome2::Rsvg                 |     | No    | No    | No      | No
-|Gtk2                         |     | No    | Yes   | No      | No
-|Gtk2::Vte                    |     | No    | Yes   | Yes     | No
+|Cairo                        |Done | Yes     | Yes     | Yes     | Yes
+|Cairo::GObject               |     | No      | No      | Yes     | Yes
+|Champlain                    |     | No      | No      | Partial | No
+|Clutter                      |     | No      | No      | Yes     | Not needed
+|ExtUtils::Depends            |Done | Yes     | Yes     | No      | No
+|ExtUtils::PkgConfig          |     | No      | Yes     | Yes     | No
+|Glib                         |     | Yes     | Yes     | Yes     | No
+|Glib::IO                     |     | No      | No      | No      | Not needed
+|Glib::Object::Introspection  |     | Yes     | Yes     | Yes     | No
+|Gnome2::Canvas               |     | No      | No      | No      | No
+|Gnome2::Dia                  |     | No      | No      | No      | No
+|Gnome2::GConf                |     | No      | No      | No      | No
+|Gnome2                       |     | No      | Yes     | Yes     | No
+|Gnome2::PanelApplet          |     | No      | No      | Yes     | No
+|Gnome2::Print                |     | No      | No      | No      | No
+|Gnome2::Rsvg                 |     | No      | No      | No      | No
+|Gnome2::VFS                  |     | No      | No      | No      | No
+|Gnome2::Vte                  |     | No      | Yes     | Yes     | No
+|Gnome2::Wnck                 |     | No      | No      | No      | No
+|Goo::Canvas                  |     | No      | No      | No      | No
+|GStreamer::GConf             |     | No      | No      | No      | No
+|GStreamer                    |     | No      | Yes     | Yes     | No
+|GStreamer::Interfaces        |     | No      | No      | No      | No
+|Gtk2::Champlain              |     | No      | No      | Partial | No
+|Gtk2                         |     | Partial | Yes     | No      | No
+|Gtk2::GladeXML               |     | Partial | No      | No      | No
+|Gtk2::GLExt                  |     | No      | No      | No      | No
+|Gtk2::Html2                  |     | No      | No      | No      | No
+|Gtk2::MozEmbed               |     | No      | Partial | No      | No
+|Gtk2::SourceView             |     | No      | No      | No      | No
+|Gtk2::SourceView2            |     | No      | Partial | Partial | No
+|Gtk2::Spell                  |     | No      | No      | No      | No
+|Gtk2::Unique                 |     | No      | No      | No      | Not needed
+|Gtk3                         |     | Partial | Yes     | Yes     | Yes
+|Pango                        |     | Partial | Yes     | No      | No
 |========================================================================
-Entries in the above table in *boldface* have notes in the below *Notes:*
-section.
 
 Notes:
 ++++++
@@ -57,6 +72,31 @@ Notes:
   * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
   * No long license blurbs were found in `Glib::IO`
 * `Gnome2::Print` is marked as deprecated in favor of Gtk2 1.140 or newer
+  * Should the FSF addresses and other changes be applied to deprecated
+    projects?
+* `Gtk2::Champlain`
+  * `README` has the old address, `COPYING` has the new address
+* `Gtk2`
+  * `README` has a link to the Bugzilla bug tracker
+* `Gtk2::GladeXML`
+  * `README` has a link to the Bugzilla bug tracker
+* `Gtk2::MozEmbed`
+  * Has a `META_MERGE` block, but with just a few entries
+* `Gtk2::SourceView2`
+  * Has a `META_MERGE` block with the git repo
+  * `COPYING` has the new address, all other files have the old address
+* `Gtk2::Unique`
+  * There are no FSF license blurbs in `Gtk2::Unique`
+  * There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
+    Artistic/GPL1
+* `Gtk3`
+  * `README` has link to Bugzilla
+  * There's no full license block anywhere in the code, so no shortening needs
+    to be done
+  * The `LICENSE` file is provided by `Dist::Zilla`, and has the current FSF
+    address
+* `Pango`
+  * `README` has link to Bugzilla
 
 ----
 // vim: set syntax=asciidoc shiftwidth=2 tabstop=2:
