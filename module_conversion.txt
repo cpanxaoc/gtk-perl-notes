@@ -40,62 +40,62 @@
 
 *Notes:*
 * All objects:
-  * Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL
-  * Add `x_IRC` to `resources` block
-  * Add `=for html` block with `<a href="chat.mibbit.com">` link; see `Moo.pm`
+** Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL
+** Add `x_IRC` to `resources` block
+** Add `=for html` block with `<a href="chat.mibbit.com">` link; see `Moo.pm`
     for an example
 * `Cairo::GObject`
-  * Changes for _Updated README_ and _CPAN META_ are committed to personal
+** Changes for _Updated README_ and _CPAN META_ are committed to personal
     GitHub (https://github.com/cpanxaoc/perl-Cairo-GObject.git)
 * `Champlain`
-  * `README` needs address updated
+** `README` needs address updated
 * `Clutter`
-  * `Clutter` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
+** `Clutter` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
-  * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
-  * No long license blurbs were found in `Clutter`
+** `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
+** No long license blurbs were found in `Clutter`
 * `ExtUtils::Depends`
-  * The `README` in `ExtUtils::Depends` was updated with mailing list, bug
+** The `README` in `ExtUtils::Depends` was updated with mailing list, bug
     tracker, and Git URLs, although the format of the update doesn't match the
     format in `Cairo`
-  * The FSF's address is never used in any of the files in
+** The FSF's address is never used in any of the files in
     `ExtUtils::Depends`, so updating the address and shortening the blurb
     doesn't make sense
 * `ExtUtils::PkgConfig`
-  * The FSF's address is only used in `lib/ExtUtils/PkgConfig.pm`
+** The FSF's address is only used in `lib/ExtUtils/PkgConfig.pm`
 * `Glib`
-  * All of the license blurbs are full length
+** All of the license blurbs are full length
 * `Glib::IO`
-  * `Glib::IO` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
+** `Glib::IO` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
-  * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
-  * No long license blurbs were found in `Glib::IO`
+** `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
+** No long license blurbs were found in `Glib::IO`
 * `Gnome2::Print` is marked as deprecated in favor of Gtk2 1.140 or newer
-  * Should the FSF addresses and other changes be applied to deprecated
+** Should the FSF addresses and other changes be applied to deprecated
     projects?
 * `Gtk2::Champlain`
-  * `README` has the old address, `COPYING` has the new address
+** `README` has the old address, `COPYING` has the new address
 * `Gtk2`
-  * `README` has a link to the Bugzilla bug tracker
+** `README` has a link to the Bugzilla bug tracker
 * `Gtk2::GladeXML`
-  * `README` has a link to the Bugzilla bug tracker
+** `README` has a link to the Bugzilla bug tracker
 * `Gtk2::MozEmbed`
-  * Has a `META_MERGE` block, but with just a few entries
+** Has a `META_MERGE` block, but with just a few entries
 * `Gtk2::SourceView2`
-  * Has a `META_MERGE` block with the git repo
-  * `COPYING` has the new address, all other files have the old address
+** Has a `META_MERGE` block with the git repo
+** `COPYING` has the new address, all other files have the old address
 * `Gtk2::Unique`
-  * There are no FSF license blurbs in `Gtk2::Unique`
-  * There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
+** There are no FSF license blurbs in `Gtk2::Unique`
+** There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
     Artistic/GPL1
 * `Gtk3`
-  * `README` has link to Bugzilla
-  * There's no full license block anywhere in the code, so no shortening needs
+** `README` has link to Bugzilla
+** There's no full license block anywhere in the code, so no shortening needs
     to be done
-  * The `LICENSE` file is provided by `Dist::Zilla`, and has the current FSF
+** The `LICENSE` file is provided by `Dist::Zilla`, and has the current FSF
     address
 * `Pango`
-  * `README` has link to Bugzilla
+** `README` has link to Bugzilla
 
 ----
 // vim: set syntax=asciidoc shiftwidth=2 tabstop=2:
