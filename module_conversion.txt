@@ -38,8 +38,7 @@
 |Pango                        |     | Partial | Yes     | No      | No
 |========================================================================
 
-Notes:
-++++++
+*Notes:*
 * All objects:
   * Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL
   * Add `x_IRC` to `resources` block
