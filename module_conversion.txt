@@ -42,8 +42,9 @@
 - All objects:
   * Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL
   * Add `x_IRC` to `resources` block
-  * Add `=for html` block with `<a href="chat.mibbit.com">` link; see `Moo.pm`
-    for an example
+  * Add `=for html` block with `<a href="chat.mibbit.com">` link; see
+    https://metacpan.org/pod/Moo#SUPPORT[Moo.pm#SUPPORT (MetaCPAN)] for an
+    example
 - `Cairo::GObject`
   * Changes for _Updated README_ and _CPAN META_ are committed to personal
     GitHub (https://github.com/cpanxaoc/perl-Cairo-GObject.git)
