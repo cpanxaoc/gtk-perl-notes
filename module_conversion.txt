@@ -3,20 +3,20 @@
 |========================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
-|<<cairo-gobject,Cairo::GObject>> |     | No      | No      | Yes     | Yes
-|Champlain                        |     | No      | No      | Partial | No
-|Clutter                          |     | No      | No      | Yes     | Not needed
-|ExtUtils::Depends                |Done | Yes     | Yes     | No      | No
-|ExtUtils::PkgConfig              |     | No      | Yes     | Yes     | No
-|Glib                             |     | Yes     | Yes     | Yes     | No
-|Glib::IO                         |     | No      | No      | No      | Not needed
+|<<Cairo-GObject,Cairo::GObject>> |     | No      | No      | Yes     | Yes
+|<<Champlain,Champlain>>          |     | No      | No      | Partial | No
+|<<Clutter,Clutter>>              |     | No      | No      | Yes     | Not needed
+|<<ExtUtils-Depends,ExtUtils::Depends>> |Done | Yes     | Yes     | No      | No
+|<<ExtUtils-PkgConfig,ExtUtils::PkgConfig>> |     | No      | Yes     | Yes     | No
+|<<Glib,Glib>>                    |     | Yes     | Yes     | Yes     | No
+|<<Glib-IO,Glib::IO>>             |     | No      | No      | No      | Not needed
 |Glib::Object::Introspection      |     | Yes     | Yes     | Yes     | No
 |Gnome2::Canvas                   |     | No      | No      | No      | No
 |Gnome2::Dia                      |     | No      | No      | No      | No
 |Gnome2::GConf                    |     | No      | No      | No      | No
 |Gnome2                           |     | No      | Yes     | Yes     | No
 |Gnome2::PanelApplet              |     | No      | No      | Yes     | No
-|Gnome2::Print                    |     | No      | No      | No      | No
+|<<Gnome2-Print,Gnome2::Print>>   |     | No      | No      | No      | No
 |Gnome2::Rsvg                     |     | No      | No      | No      | No
 |Gnome2::VFS                      |     | No      | No      | No      | No
 |Gnome2::Vte                      |     | No      | Yes     | Yes     | No
@@ -25,18 +25,18 @@
 |GStreamer::GConf                 |     | No      | No      | No      | No
 |GStreamer                        |     | No      | Yes     | Yes     | No
 |GStreamer::Interfaces            |     | No      | No      | No      | No
-|Gtk2::Champlain                  |     | No      | No      | Partial | No
-|Gtk2                             |     | Partial | Yes     | No      | No
-|Gtk2::GladeXML                   |     | Partial | No      | No      | No
+|<<Gtk2-Champlain,Gtk2::Champlain>> |     | No      | No      | Partial | No
+|<<Gtk2,Gtk2>>                    |     | Partial | Yes     | No      | No
+|<<Gtk2-GladeXML,Gtk2::GladeXML>> |     | Partial | No      | No      | No
 |Gtk2::GLExt                      |     | No      | No      | No      | No
 |Gtk2::Html2                      |     | No      | No      | No      | No
-|Gtk2::MozEmbed                   |     | No      | Partial | No      | No
+|<<Gtk2-MozEmbed,Gtk2::MozEmbed>> |     | No      | Partial | No      | No
 |Gtk2::SourceView                 |     | No      | No      | No      | No
-|Gtk2::SourceView2                |     | No      | Partial | Partial | No
+|<<Gtk2-SourceView2,Gtk2::SourceView2>> |     | No      | Partial | Partial | No
 |Gtk2::Spell                      |     | No      | No      | No      | No
-|Gtk2::Unique                     |     | No      | No      | No      | Not needed
-|Gtk3                             |     | Partial | Yes     | Yes     | Yes
-|Pango                            |     | Partial | Yes     | No      | No
+|<<Gtk2-Unique,Gtk2::Unique>>     |     | No      | No      | No      | Not needed
+|<<Gtk3,Gtk3>>                    |     | Partial | Yes     | Yes     | Yes
+|<<Pango,Pango>>                  |     | Partial | Yes     | No      | No
 |========================================================================
 
 .Notes
@@ -46,58 +46,57 @@
   * Add `=for html` block with `<a href="chat.mibbit.com">` link; see
     https://metacpan.org/pod/Moo#SUPPORT[Moo.pm#SUPPORT (MetaCPAN)] for an
     example
-
-- [[cairo-gobject]]`Cairo::GObject`
+- [[Cairo-GObject]]`Cairo::GObject`
   * Changes for _Updated README_ and _CPAN META_ are committed to personal
     GitHub (https://github.com/cpanxaoc/perl-Cairo-GObject.git)
-- `Champlain`
+- [[Champlain]]`Champlain`
   * `README` needs address updated
-- `Clutter`
+- [[Clutter]]`Clutter`
   * `Clutter` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
   * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
   * No long license blurbs were found in `Clutter`
-- `ExtUtils::Depends`
+- [[ExtUtils-Depends]]`ExtUtils::Depends`
   * The `README` in `ExtUtils::Depends` was updated with mailing list, bug
     tracker, and Git URLs, although the format of the update doesn't match the
     format in `Cairo`
   * The FSF's address is never used in any of the files in
     `ExtUtils::Depends`, so updating the address and shortening the blurb
     doesn't make sense
-- `ExtUtils::PkgConfig`
+- [[ExtUtils-PkgConfig]]`ExtUtils::PkgConfig`
   * The FSF's address is only used in `lib/ExtUtils/PkgConfig.pm`
-- `Glib`
+- [[Glib]]`Glib`
   * All of the license blurbs are full length
-- `Glib::IO`
+- [[Glib-IO]]`Glib::IO`
   * `Glib::IO` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
   * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
   * No long license blurbs were found in `Glib::IO`
-- `Gnome2::Print` is marked as deprecated in favor of Gtk2 1.140 or newer
+- [[Gnome2-Print]]`Gnome2::Print` is marked as deprecated in favor of Gtk2 1.140 or newer
   * Should the FSF addresses and other changes be applied to deprecated
     projects?
-- `Gtk2::Champlain`
+- [[Gtk2-Champlain]]`Gtk2::Champlain`
   * `README` has the old address, `COPYING` has the new address
-- `Gtk2`
+- [[Gtk2]]`Gtk2`
   * `README` has a link to the Bugzilla bug tracker
-- `Gtk2::GladeXML`
+- [[Gtk2-GladeXML]]`Gtk2::GladeXML`
   * `README` has a link to the Bugzilla bug tracker
-- `Gtk2::MozEmbed`
+- [[Gtk2-MozEmbed]]`Gtk2::MozEmbed`
   * Has a `META_MERGE` block, but with just a few entries
-- `Gtk2::SourceView2`
+- [[Gtk2-SourceView2]]`Gtk2::SourceView2`
   * Has a `META_MERGE` block with the git repo
   * `COPYING` has the new address, all other files have the old address
-- `Gtk2::Unique`
+- [[Gtk2-Unique]]`Gtk2::Unique`
   * There are no FSF license blurbs in `Gtk2::Unique`
   * There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
     Artistic/GPL1
-- `Gtk3`
+- [[Gtk3]]`Gtk3`
   * `README` has link to Bugzilla
   * There's no full license block anywhere in the code, so no shortening needs
     to be done
   * The `LICENSE` file is provided by `Dist::Zilla`, and has the current FSF
     address
-- `Pango`
+- [[Pango]]`Pango`
   * `README` has link to Bugzilla
 
 ----
