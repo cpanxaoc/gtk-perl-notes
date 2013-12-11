@@ -3,7 +3,7 @@
 |========================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
-|<<Cairo-GObject,Cairo::GObject>> |     | No      | No      | Yes     | Yes
+|<<Cairo-GObject,Cairo::GObject>> |Done | No      | No      | Yes     | Yes
 |<<Champlain,Champlain>>          |     | No      | No      | Partial | No
 |<<Clutter,Clutter>>              |     | No      | No      | Yes     | Not needed
 |<<ExtUtils-Depends,ExtUtils::Depends>> |Done | Yes     | Yes     | No      | No
@@ -47,8 +47,8 @@
     https://metacpan.org/pod/Moo#SUPPORT[Moo.pm#SUPPORT (MetaCPAN)] for an
     example
 - [[Cairo-GObject]]`Cairo::GObject`
-  * Changes for _Updated README_ and _CPAN META_ are committed to personal
-    GitHub (https://github.com/cpanxaoc/perl-Cairo-GObject.git)
+  * All changes are done, new release pushed to CPAN, however, mailing list
+    and git links are not working on MetaCPAN
 - [[Champlain]]`Champlain`
   * `README` needs address updated
 - [[Clutter]]`Clutter`
