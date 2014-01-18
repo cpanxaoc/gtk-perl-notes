@@ -12,11 +12,14 @@ By Brian Manning (PAUSE ID: XAOC)
 - Add a "How do I..." section on the front page, and link to different things,
   like the git repos, getting started docs, mailing list, list of modules
 - `Gtk2`/`Gtk3` advent calendars
-- Guide to `Gtk2`/`Gtk3`
+- Codex/Guide to `Gtk2`/`Gtk3`
   - How to find docs, and how to navigate the docs tree
   - Cookbook
     - Try to demonstrate as much of the API and widgets as possible
   - Project culture
+  - See also:
+    - `gtk3-codex.md` in `public.git/presentations/`
+    - `gtk3-codex.md` and `gtk-perl.md` in `project_journals.git`
 - Add the `Gtk3` module to the list of modules on the homepage
 - Add a "how to get started with `Gtk3`" section
 - change _gtk2-perl Git Repo_ link to _Git Repo_ on the right hand nav bar
