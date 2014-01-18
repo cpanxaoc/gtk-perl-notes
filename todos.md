@@ -18,8 +18,8 @@ By Brian Manning (PAUSE ID: XAOC)
     - Try to demonstrate as much of the API and widgets as possible
   - Project culture
   - See also:
-    - `gtk3-codex.md` in `public.git/presentations/`
-    - `gtk3-codex.md` and `gtk-perl.md` in `project_journals.git`
+    - `gtk-perl-codex.md` in `public.git/presentations/`
+    - `gtk-perl-codex.md` and `gtk-perl.md` in `project_journals.git`
 - Add the `Gtk3` module to the list of modules on the homepage
 - Add a "how to get started with `Gtk3`" section
 - change _gtk2-perl Git Repo_ link to _Git Repo_ on the right hand nav bar
