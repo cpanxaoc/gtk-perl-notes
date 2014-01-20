@@ -9,6 +9,7 @@ By Brian Manning (PAUSE ID: XAOC)
 
 ## Website ##
 - Link to twitter account
+- Add screenshots to the Sourceforge homepage
 - Add a "How do I..." section on the front page, and link to different things,
   like the git repos, getting started docs, mailing list, list of modules
 - `Gtk2`/`Gtk3` advent calendars
