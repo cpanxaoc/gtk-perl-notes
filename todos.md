@@ -14,13 +14,11 @@ By Brian Manning (PAUSE ID: XAOC)
   like the git repos, getting started docs, mailing list, list of modules
 - `Gtk2`/`Gtk3` advent calendars
 - Codex/Guide to `Gtk2`/`Gtk3`
-  - How to find docs, and how to navigate the docs tree
-  - Cookbook
-    - Try to demonstrate as much of the API and widgets as possible
-  - Project culture
-  - See also:
-    - `gtk-perl-codex.md` in `public.git/presentations/`
-    - `gtk-perl-codex.md` and `gtk-perl.md` in `project_journals.git`
+  - See:
+    - `gtk-perl-codex.md` in `public.git/presentations/` for notes/content for
+      the codex
+    - `gtk-perl-codex.md` and `gtk-perl.md` in `project_journals.git` for
+      journal entries describing work done on the project
 - Add the `Gtk3` module to the list of modules on the homepage
 - Add a "how to get started with `Gtk3`" section
 - change _gtk2-perl Git Repo_ link to _Git Repo_ on the right hand nav bar
