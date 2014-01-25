@@ -3,7 +3,7 @@
 |=============================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
-|<<Cairo-GObject,Cairo::GObject>> |Done | Yes     | Yes     | Yes     | Yes
+|Cairo-GObject                    |Done | Yes     | Yes     | Yes     | Yes
 |<<Champlain,Champlain>>          |     | No      | No      | Partial | No
 |<<Clutter,Clutter>>              |     | No      | No      | Yes     | Not needed
 |<<ExtUtils-Depends,ExtUtils::Depends>> |Done | Yes     | Yes     | No      | No
@@ -41,14 +41,12 @@
 
 .Notes
 - All objects:
-  * Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL
+  * Add `x_twitter` to `resources` block, pointing to Twitter HTTP URL (see
+  `CPAN::Meta::Spec` for example URL)
   * Add `x_IRC` to `resources` block
   * Add `=for html` block with `<a href="chat.mibbit.com">` link; see
     https://metacpan.org/pod/Moo#SUPPORT[Moo.pm#SUPPORT (MetaCPAN)] for an
     example
-- [[Cairo-GObject]]`Cairo::GObject`
-  * All changes are done, new release pushed to CPAN, however, mailing list
-    and git links are not working on MetaCPAN
 - [[Champlain]]`Champlain`
   * `README` needs address updated
 - [[Clutter]]`Clutter`
