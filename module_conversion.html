@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-<meta name="generator" content="AsciiDoc 8.6.8" />
+<meta name="generator" content="AsciiDoc 8.6.7" />
 <title></title>
 <style type="text/css">
 /* Shared CSS for AsciiDoc xhtml11 and html5 backends */
@@ -87,14 +87,10 @@ ul, ol, li > p {
 ul > li     { color: #aaa; }
 ul > li > * { color: black; }
 
-.monospaced, code, pre {
-  font-family: "Courier New", Courier, monospace;
-  font-size: inherit;
-  color: navy;
+pre {
   padding: 0;
   margin: 0;
 }
-
 
 #author {
   color: #527bbd;
@@ -419,6 +415,12 @@ div.unbreakable { page-break-inside: avoid; }
  *
  * */
 
+tt {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+}
+
 div.tableblock {
   margin-top: 1.0em;
   margin-bottom: 1.5em;
@@ -451,6 +453,12 @@ div.tableblock > table[frame="vsides"] {
  * html5 specific
  *
  * */
+
+.monospaced {
+  font-family: "Courier New", Courier, monospace;
+  font-size: inherit;
+  color: navy;
+}
 
 table.tableblock {
   margin-top: 1.0em;
@@ -531,8 +539,6 @@ body.manpage div.sectionbody {
 @media print {
   body.manpage div#toc { display: none; }
 }
-
-
 </style>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -751,7 +757,7 @@ cellspacing="0" cellpadding="4">
 <th align="left" valign="top">Updated README</th>
 <th align="left" valign="top">CPAN META</th>
 <th align="left" valign="top">Updated FSF address</th>
-<th align="left" valign="top">Shortened license blurbs</th>
+<th align="left" valign="top">Shortened license notices</th>
 </tr>
 </thead>
 <tbody>
@@ -1046,18 +1052,18 @@ All objects:
 <div class="ulist"><ul>
 <li>
 <p>
-Add <code>x_twitter</code> to <code>resources</code> block, pointing to Twitter HTTP URL (see
-  <code>CPAN::Meta::Spec</code> for example URL)
+Add <tt>x_twitter</tt> to <tt>resources</tt> block, pointing to Twitter HTTP URL (see
+  <tt>CPAN::Meta::Spec</tt> for example URL)
 </p>
 </li>
 <li>
 <p>
-Add <code>x_IRC</code> to <code>resources</code> block
+Add <tt>x_IRC</tt> to <tt>resources</tt> block
 </p>
 </li>
 <li>
 <p>
-Add <code>=for html</code> block with <code>&lt;a href="chat.mibbit.com"&gt;</code> link; see
+Add <tt>=for html</tt> block with <tt>&lt;a href="chat.mibbit.com"&gt;</tt> link; see
     <a href="https://metacpan.org/pod/Moo#SUPPORT">Moo.pm#SUPPORT (MetaCPAN)</a> for an
     example
 </p>
@@ -1066,55 +1072,55 @@ Add <code>=for html</code> block with <code>&lt;a href="chat.mibbit.com"&gt;</co
 </li>
 <li>
 <p>
-<a id="Champlain"></a><code>Champlain</code>
+<a id="Champlain"></a><tt>Champlain</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>README</code> needs address updated
+<tt>README</tt> needs address updated
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Clutter"></a><code>Clutter</code>
+<a id="Clutter"></a><tt>Clutter</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>Clutter</code> uses <code>Dist::Zilla</code>, so FSF address and CPAN Meta are controlled
-    by <code>Dist::Zilla</code> modules/plugins
+<tt>Clutter</tt> uses <tt>Dist::Zilla</tt>, so FSF address and CPAN Meta are controlled
+    by <tt>Dist::Zilla</tt> modules/plugins
 </p>
 </li>
 <li>
 <p>
-<code>CPAN::Meta::Spec</code> config blocks need to be added to <code>dzil.ini</code>
+<tt>CPAN::Meta::Spec</tt> config blocks need to be added to <tt>dzil.ini</tt>
 </p>
 </li>
 <li>
 <p>
-No long license blurbs were found in <code>Clutter</code>
+No long license notices were found in <tt>Clutter</tt>
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="ExtUtils-Depends"></a><code>ExtUtils::Depends</code>
+<a id="ExtUtils-Depends"></a><tt>ExtUtils::Depends</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-The <code>README</code> in <code>ExtUtils::Depends</code> was updated with mailing list, bug
+The <tt>README</tt> in <tt>ExtUtils::Depends</tt> was updated with mailing list, bug
     tracker, and Git URLs, although the format of the update doesn&#8217;t match the
-    format in <code>Cairo</code>
+    format in <tt>Cairo</tt>
 </p>
 </li>
 <li>
 <p>
 The FSF&#8217;s address is never used in any of the files in
-    <code>ExtUtils::Depends</code>, so updating the address and shortening the blurb
+    <tt>ExtUtils::Depends</tt>, so updating the address and shortening the notice
     doesn&#8217;t make sense
 </p>
 </li>
@@ -1122,54 +1128,54 @@ The FSF&#8217;s address is never used in any of the files in
 </li>
 <li>
 <p>
-<a id="ExtUtils-PkgConfig"></a><code>ExtUtils::PkgConfig</code>
+<a id="ExtUtils-PkgConfig"></a><tt>ExtUtils::PkgConfig</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-The FSF&#8217;s address is only used in <code>lib/ExtUtils/PkgConfig.pm</code>
+The FSF&#8217;s address is only used in <tt>lib/ExtUtils/PkgConfig.pm</tt>
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Glib"></a><code>Glib</code>
+<a id="Glib"></a><tt>Glib</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-All of the license blurbs are full length
+All of the license notices are full length
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Glib-IO"></a><code>Glib::IO</code>
+<a id="Glib-IO"></a><tt>Glib::IO</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>Glib::IO</code> uses <code>Dist::Zilla</code>, so FSF address and CPAN Meta are controlled
-    by <code>Dist::Zilla</code> modules/plugins
+<tt>Glib::IO</tt> uses <tt>Dist::Zilla</tt>, so FSF address and CPAN Meta are controlled
+    by <tt>Dist::Zilla</tt> modules/plugins
 </p>
 </li>
 <li>
 <p>
-<code>CPAN::Meta::Spec</code> config blocks need to be added to <code>dzil.ini</code>
+<tt>CPAN::Meta::Spec</tt> config blocks need to be added to <tt>dzil.ini</tt>
 </p>
 </li>
 <li>
 <p>
-No long license blurbs were found in <code>Glib::IO</code>
+No long license notices were found in <tt>Glib::IO</tt>
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gnome2-Print"></a><code>Gnome2::Print</code> is marked as deprecated in favor of Gtk2 1.140 or newer
+<a id="Gnome2-Print"></a><tt>Gnome2::Print</tt> is marked as deprecated in favor of Gtk2 1.140 or newer
 </p>
 <div class="ulist"><ul>
 <li>
@@ -1182,83 +1188,83 @@ Should the FSF addresses and other changes be applied to deprecated
 </li>
 <li>
 <p>
-<a id="Gtk2-Champlain"></a><code>Gtk2::Champlain</code>
+<a id="Gtk2-Champlain"></a><tt>Gtk2::Champlain</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>README</code> has the old address, <code>COPYING</code> has the new address
+<tt>README</tt> has the old address, <tt>COPYING</tt> has the new address
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gtk2"></a><code>Gtk2</code>
+<a id="Gtk2"></a><tt>Gtk2</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>README</code> has a link to the Bugzilla bug tracker
+<tt>README</tt> has a link to the Bugzilla bug tracker
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gtk2-GladeXML"></a><code>Gtk2::GladeXML</code>
+<a id="Gtk2-GladeXML"></a><tt>Gtk2::GladeXML</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-<code>README</code> has a link to the Bugzilla bug tracker
+<tt>README</tt> has a link to the Bugzilla bug tracker
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gtk2-MozEmbed"></a><code>Gtk2::MozEmbed</code>
+<a id="Gtk2-MozEmbed"></a><tt>Gtk2::MozEmbed</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-Has a <code>META_MERGE</code> block, but with just a few entries
+Has a <tt>META_MERGE</tt> block, but with just a few entries
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gtk2-SourceView2"></a><code>Gtk2::SourceView2</code>
+<a id="Gtk2-SourceView2"></a><tt>Gtk2::SourceView2</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-Has a <code>META_MERGE</code> block with the git repo
+Has a <tt>META_MERGE</tt> block with the git repo
 </p>
 </li>
 <li>
 <p>
-<code>COPYING</code> has the new address, all other files have the old address
+<tt>COPYING</tt> has the new address, all other files have the old address
 </p>
 </li>
 </ul></div>
 </li>
 <li>
 <p>
-<a id="Gtk2-Unique"></a><code>Gtk2::Unique</code>
+<a id="Gtk2-Unique"></a><tt>Gtk2::Unique</tt>
 </p>
 <div class="ulist"><ul>
 <li>
 <p>
-There are no FSF license blurbs in <code>Gtk2::Unique</code>
+There are no FSF license notices in <tt>Gtk2::Unique</tt>
 </p>
 </li>
 <li>
 <p>
-There&#8217;s one license blurb in <code>lib/Gtk2/Unique.pm</code>, setting the license to
-    Artistic/GPL1
+There&#8217;s one mention of a license in <tt>lib/Gtk2/Unique.pm</tt>, setting the
+    license to Artistic/GPL1
 </p>
 </li>
 </ul></div>
@@ -1266,13 +1272,13 @@ There&#8217;s one license blurb in <code>lib/Gtk2/Unique.pm</code>, setting the 
 </ul></div>
 <div class="listingblock">
 <div class="content">
-<pre><code>// vim: set syntax=asciidoc shiftwidth=2 tabstop=2:</code></pre>
+<pre><tt>// vim: set syntax=asciidoc shiftwidth=2 tabstop=2:</tt></pre>
 </div></div>
 </div>
 <div id="footnotes"><hr /></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2014-01-25 12:50:02 PST
+Last updated 2014-01-25 13:45:31 PST
 </div>
 </div>
 </body>

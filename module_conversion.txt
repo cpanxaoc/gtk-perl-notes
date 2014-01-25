@@ -1,7 +1,7 @@
 [width="80%"]
 [options="header"]
 |=============================================================================
-|Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
+|Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license notices
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
 |Cairo-GObject                    |Done | Yes     | Yes     | Yes     | Yes
 |<<Champlain,Champlain>>          |     | No      | No      | Partial | No
@@ -53,23 +53,23 @@
   * `Clutter` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
   * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
-  * No long license blurbs were found in `Clutter`
+  * No long license notices were found in `Clutter`
 - [[ExtUtils-Depends]]`ExtUtils::Depends`
   * The `README` in `ExtUtils::Depends` was updated with mailing list, bug
     tracker, and Git URLs, although the format of the update doesn't match the
     format in `Cairo`
   * The FSF's address is never used in any of the files in
-    `ExtUtils::Depends`, so updating the address and shortening the blurb
+    `ExtUtils::Depends`, so updating the address and shortening the notice
     doesn't make sense
 - [[ExtUtils-PkgConfig]]`ExtUtils::PkgConfig`
   * The FSF's address is only used in `lib/ExtUtils/PkgConfig.pm`
 - [[Glib]]`Glib`
-  * All of the license blurbs are full length
+  * All of the license notices are full length
 - [[Glib-IO]]`Glib::IO`
   * `Glib::IO` uses `Dist::Zilla`, so FSF address and CPAN Meta are controlled
     by `Dist::Zilla` modules/plugins
   * `CPAN::Meta::Spec` config blocks need to be added to `dzil.ini`
-  * No long license blurbs were found in `Glib::IO`
+  * No long license notices were found in `Glib::IO`
 - [[Gnome2-Print]]`Gnome2::Print` is marked as deprecated in favor of Gtk2 1.140 or newer
   * Should the FSF addresses and other changes be applied to deprecated
     projects?
@@ -85,9 +85,9 @@
   * Has a `META_MERGE` block with the git repo
   * `COPYING` has the new address, all other files have the old address
 - [[Gtk2-Unique]]`Gtk2::Unique`
-  * There are no FSF license blurbs in `Gtk2::Unique`
-  * There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
-    Artistic/GPL1
+  * There are no FSF license notices in `Gtk2::Unique`
+  * There's one mention of a license in `lib/Gtk2/Unique.pm`, setting the
+    license to Artistic/GPL1
 
 ----
 // vim: set syntax=asciidoc shiftwidth=2 tabstop=2:
