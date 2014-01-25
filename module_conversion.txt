@@ -3,7 +3,7 @@
 |=============================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license notices
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
-|Cairo-GObject                    |Done | Yes     | Yes     | Yes     | Yes
+|Cairo::GObject                   |Done | Yes     | Yes     | Yes     | Yes
 |<<Champlain,Champlain>>          |     | No      | No      | Partial | No
 |<<Clutter,Clutter>>              |     | No      | No      | Yes     | Not needed
 |<<ExtUtils-Depends,ExtUtils::Depends>> |Done | Yes     | Yes     | No      | No
