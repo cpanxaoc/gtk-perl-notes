@@ -1,6 +1,6 @@
 [width="80%"]
 [options="header"]
-|========================================================================
+|=============================================================================
 |Module Name|Status|Updated README|CPAN META|Updated FSF address|Shortened license blurbs
 |Cairo                            |Done | Yes     | Yes     | Yes     | Yes
 |<<Cairo-GObject,Cairo::GObject>> |Done | Yes     | Yes     | Yes     | Yes
@@ -35,9 +35,9 @@
 |<<Gtk2-SourceView2,Gtk2::SourceView2>> |     | No      | Partial | Partial | No
 |Gtk2::Spell                      |     | No      | No      | No      | No
 |<<Gtk2-Unique,Gtk2::Unique>>     |     | No      | No      | No      | Not needed
-|<<Gtk3,Gtk3>>                    |     | Partial | Yes     | Yes     | Yes
-|<<Pango,Pango>>                  |     | Partial | Yes     | No      | No
-|========================================================================
+|Gtk3                             |Done | Yes     | Yes     | Yes     | Yes
+|Pango                            |Done | Yes     | Yes     | Yes     | Yes
+|=============================================================================
 
 .Notes
 - All objects:
@@ -90,14 +90,6 @@
   * There are no FSF license blurbs in `Gtk2::Unique`
   * There's one license blurb in `lib/Gtk2/Unique.pm`, setting the license to
     Artistic/GPL1
-- [[Gtk3]]`Gtk3`
-  * `README` has link to Bugzilla
-  * There's no full license block anywhere in the code, so no shortening needs
-    to be done
-  * The `LICENSE` file is provided by `Dist::Zilla`, and has the current FSF
-    address
-- [[Pango]]`Pango`
-  * `README` has link to Bugzilla
 
 ----
 // vim: set syntax=asciidoc shiftwidth=2 tabstop=2:
