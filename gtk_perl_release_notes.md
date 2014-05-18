@@ -46,6 +46,12 @@
   - Cairo; NEWS, lib/Cairo.pm, Makefile.PL (stable/unstable flag)
   - Cairo::GObject; NEWS, lib/Cairo/GObject.pm, Makefile.PL (stable/unstable
     flag)
+  - ExtUtils::Depends; Changes, lib/ExtUtils/Depends.pm
+    - **NOTE:** You need to generate the `MANIFEST` file using the `Makefile`
+      target `make manifest` after `perl Makefile.PL`, but prior to running
+      `make dist` (`perl Makefile.PL -> make manifest -> make dist`)
+  - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
+    Makefile.PL (stable/unstable flag)
   - Glib; NEWS, lib/Glib.pm, lib/Glib/CodeGen.pm, lib/Glib/GenPod.pm,
     lib/Glib/MakeHelper.pm, lib/Glib/Object/Subclass.pm,
     lib/Glib/ParseXSDoc.pm, Makefile.PL (stable/unstable flag, unstable block
@@ -71,11 +77,6 @@
       - Part of `dzil release` is to make a "release commit" with these files
         automagically
   - Pango; NEWS, lib/Pango.pm, Makefile.PL (stable/unstable flag)
-  - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
-    Makefile.PL (stable/unstable flag)
-  - ExtUtils::Depends; Changes, lib/ExtUtils/Depends.pm
-    - **NOTE:** You need to generate the `MANIFEST` file using `make manifest`
-      after `perl Makefile.PL` prior to running `make dist`
 
 ## Building a copy of Glib for testing ##
 - Glib
