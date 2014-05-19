@@ -50,6 +50,8 @@
     - **NOTE:** You need to generate the `MANIFEST` file using the `Makefile`
       target `make manifest` after `perl Makefile.PL`, but prior to running
       `make dist` (`perl Makefile.PL -> make manifest -> make dist`)
+    - You can safely delete the `MANIFEST` file and regenerate it prior to
+      running `make dist`
   - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
     Makefile.PL (stable/unstable flag)
   - Glib; NEWS, lib/Glib.pm, lib/Glib/CodeGen.pm, lib/Glib/GenPod.pm,
