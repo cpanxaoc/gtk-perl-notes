@@ -1,3 +1,10 @@
+## Release Setup ##
+
+Export PKG_CONFIG_PATH to the installed version of XQuartz, so the GTK modules
+can pick up the `*.pc` file for `xcb-shm`
+
+    export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
+
 ## Release Checklist ##
 - Check bugs in distributions, see if anything can quickly be fixed
   - RT: https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=XAOC
