@@ -50,42 +50,78 @@ can pick up the `*.pc` file for `xcb-shm`
     - use bit.ly to shorten URLs
 
 ## List of files to change, by module ##
-  - Cairo; NEWS, lib/Cairo.pm, Makefile.PL (stable/unstable flag)
-  - Cairo::GObject; NEWS, lib/Cairo/GObject.pm, Makefile.PL (stable/unstable
-    flag)
-  - ExtUtils::Depends; Changes, lib/ExtUtils/Depends.pm
-    - **NOTE:** You need to generate the `MANIFEST` file using the `Makefile`
-      target `make manifest` after `perl Makefile.PL`, but prior to running
-      `make dist` (`perl Makefile.PL -> make manifest -> make dist`)
-    - You can safely delete the `MANIFEST` file and regenerate it prior to
-      running `make dist`
-  - ExtUtils::PkgConfig; Changelog, lib/ExtUtils/PkgConfig.pm,
-    Makefile.PL (stable/unstable flag)
-  - Glib; NEWS, lib/Glib.pm, lib/Glib/CodeGen.pm, lib/Glib/GenPod.pm,
-    lib/Glib/MakeHelper.pm, lib/Glib/Object/Subclass.pm,
-    lib/Glib/ParseXSDoc.pm, Makefile.PL (stable/unstable flag, unstable block
-    that gets output when an unstable release is made)
-  - Glib::Object::Introspection; NEWS, lib/Glib/Object/Introspection.pm,
-    Makefile.PL (stable/unstable flag)
-    - See instructions below for building Glib for testing
-  - Gnome2; NEWS, Gnome2.pm, Makefile.PL (stable/unstable flag)
-  - Gnome2::VFS; NEWS, VFS.pm, Makefile.PL (stable/unstable flag)
-  - Gnome2::Vte; NEWS, Vte.pm, Makefile.PL (stable/unstable flag)
-  - GStreamer; NEWS, lib/GStreamer.pm, Makefile.PL (stable/unstable flag)
-  - Gtk2; NEWS, lib/Gtk2.pm, Makefile.PL (stable/unstable flag)
-    - See instructions below for building Glib for testing
-  - Gtk3; **DO NOT MAKE A RELEASE COMMIT**, Dist::Zilla takes care of all of
+- Cairo
+  - NEWS
+  - lib/Cairo.pm
+  - Makefile.PL (stable/unstable flag)
+- Cairo::GObject
+  - NEWS
+  - lib/Cairo/GObject.pm
+  - Makefile.PL (stable/unstable flag)
+- ExtUtils::Depends
+  - Changes
+  - lib/ExtUtils/Depends.pm
+  - **NOTE:** You need to generate the `MANIFEST` file using the `Makefile`
+    target `make manifest` after `perl Makefile.PL`, but prior to running
+    `make dist` (`perl Makefile.PL -> make manifest -> make dist`)
+  - You can safely delete the `MANIFEST` file and regenerate it prior to
+    running `make dist`
+- ExtUtils::PkgConfig
+  - Changelog
+  - lib/ExtUtils/PkgConfig.pm
+  - Makefile.PL (stable/unstable flag)
+- Glib
+  - NEWS
+  - lib/Glib.pm
+  - lib/Glib/CodeGen.pm
+  - lib/Glib/GenPod.pm
+  - lib/Glib/MakeHelper.pm
+  - lib/Glib/Object/Subclass.pm
+  - lib/Glib/ParseXSDoc.pm
+  - Makefile.PL (stable/unstable flag, unstable block that gets output when an
+    unstable release is made)
+- Glib::Object::Introspection
+  - NEWS
+  - lib/Glib/Object/Introspection.pm
+  - Makefile.PL (stable/unstable flag)
+  - See instructions below for building Glib for testing
+- Gnome2
+  - NEWS
+  - Gnome2.pm
+  - Makefile.PL (stable/unstable flag)
+- Gnome2::VFS
+  - NEWS
+  - VFS.pm
+  - Makefile.PL (stable/unstable flag)
+- Gnome2::Vte
+  - NEWS
+  - Vte.pm
+  - Makefile.PL (stable/unstable flag)
+- GStreamer
+  - NEWS
+  - lib/GStreamer.pm
+  - Makefile.PL (stable/unstable flag)
+- Gtk2
+  - NEWS
+  - lib/Gtk2.pm
+  - Makefile.PL (stable/unstable flag)
+  - See instructions below for building Glib for testing
+- Gtk3
+  - **DO NOT MAKE A RELEASE COMMIT**, Dist::Zilla takes care of all of
     the files, as well as tagging and making the release commit and push to
     `git.gnome.org`
-    - Update the `dist.ini` file with the next release version
-    - Update the `NEWS` file with changes since the last commit
-      - Put the changes below the line that says `${NEXT}`
-    - Call `dzil build` to build a release distribution
-      - Check the files in the release distribution, using the list above
-    - _DO NOT COMMIT THE UPDATED FILES_; simply call `dzil release`
-      - Part of `dzil release` is to make a "release commit" with these files
-        automagically
-  - Pango; NEWS, lib/Pango.pm, Makefile.PL (stable/unstable flag)
+  - Update the `dist.ini` file with the next release version
+  - Update the `NEWS` file with changes since the last commit
+    - Put the changes below the line that says `${NEXT}`
+  - Call `dzil build` to build a release distribution
+    - Check the files in the release distribution, using the list above
+  - _DO NOT COMMIT THE UPDATED FILES_; simply call `dzil release`
+    - Part of `dzil release` is to make a "release commit" with these files
+      automagically
+- Pango
+  - NEWS
+  - lib/Pango.pm
+  - Makefile.PL (stable/unstable flag)
 
 ## Building a copy of Glib for testing ##
 - Glib
@@ -140,4 +176,4 @@ awk -F'/' '{ print $5; }' | uniq | sort | egrep -v
 ## Generating docs from .gir files ##
 - https://live.gnome.org/GObjectIntrospection/Doctools
 
-# vim: filetype=markdown tabstop=2
+# vim: filetype=markdown tabstop=2 shiftwidth=2
