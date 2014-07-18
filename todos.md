@@ -36,6 +36,10 @@ By Brian Manning (PAUSE ID: XAOC)
 Find some way to pull the method descriptions out of glib/gtk2/gtk3/etc. docs,
 and insert those method descriptions into the corresponding Perl modules,
 using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
+- Use `jhbuild` to build glib/gtk+2/gtk+
+  - This should also get `gtk-doc`
+- Run `gtk-doc` in the source directories to build the XML files
+- Parse the XML files, and match Perl methods with methods from GTK libs
 
 ## Release Automation Ideas ##
   - Runs `git pull` on all source repos and mails a list of changed repos
