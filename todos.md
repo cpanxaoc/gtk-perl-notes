@@ -32,6 +32,11 @@ By Brian Manning (PAUSE ID: XAOC)
   - "Dirk van der Walt has a rather detailed Gtk2-Perl Study Guide." should
     point to the local copy on Sourceforge
 
+## Docs Integration ##
+Find some way to pull the method descriptions out of glib/gtk2/gtk3/etc. docs,
+and insert those method descriptions into the corresponding Perl modules,
+using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
+
 ## Release Automation Ideas ##
   - Runs `git pull` on all source repos and mails a list of changed repos
   - Updating the version numbers in the correct files
