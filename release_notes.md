@@ -13,6 +13,7 @@ can pick up the `*.pc` file for `xcb-shm`
 - CPAN Meta-Spec v2 - Check to see if the project has an updated `%meta_merge`
   structure in `Makefile.PL`; see `Cairo` commit ID `17f2def7` for an idea of
   what changes need to me made
+  - http://blogs.perl.org/users/peter_rabbitson/2014/09/encourage-user-participation-via-a-single-line-patch-to-your-dist-metadata.html
 - `README` - Check to see if the project has an updated `README` file; see
   `Cairo` commit ID `081061c` for the changes made
 - SUPPORT section in the POD
