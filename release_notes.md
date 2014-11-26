@@ -1,9 +1,10 @@
 ## Release Setup ##
 
 Export PKG_CONFIG_PATH to the installed version of XQuartz, so the GTK modules
-can pick up the `*.pc` file for `xcb-shm`
+can pick up the `*.pc` file for `xcb-shm`; also need to pick up the libs for
+GTK+/Glib/Pango/Cairo from Homebrew, if used.
 
-    export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
+    export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
 
 ## Release Checklist ##
 - Check bugs in distributions, see if anything can quickly be fixed
