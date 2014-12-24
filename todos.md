@@ -9,7 +9,6 @@ By Brian Manning (PAUSE ID: XAOC)
 
 ## Website ##
 - Link to twitter account
-- Add screenshots to the Sourceforge homepage
 - Add a "How do I..." section on the front page, and link to different things,
   like the git repos, getting started docs, mailing list, list of modules
 - `Gtk2`/`Gtk3` advent calendars
@@ -84,5 +83,8 @@ using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
 - http://comments.gmane.org/gmane.os.openbsd.ports/50008
 - http://thread.gmane.org/gmane.os.openbsd.misc/162657/focus=162657
 - https://www.google.com/search?oq=lazy+binding+failed!+Segmentation+fault+(core+dumped)+OpenBSD
+
+## Done TODOs ##
+- Add screenshots to the Sourceforge homepage
 
 # vim: filetype=markdown shiftwidth=2 tabstop=2
