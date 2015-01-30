@@ -47,7 +47,6 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
   - Verify URLs to Git repo and download tarballs in any posts
   - mailing list
   - Sourceforge - https://sourceforge.net/p/gtk2-perl/news/
-  - Freshmeat - https://freecode.com/projects/gtk2-perl/releases
   - *cpanxaoc* and *GTKPerl* accounts on Twitter
     - use bit.ly to shorten URLs
 
