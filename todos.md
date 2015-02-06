@@ -56,6 +56,7 @@ using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
     - Checking that the blurbs posted correctly on Sourceforge and Freshmeat
   - Uploading the release tarball
     - CPAN
+      - https://metacpan.org/pod/CPAN::Uploader
     - Sourceforge
   - Generating the e-mail for the next release due date
   - Getting `bit.ly` URLs for twits
@@ -67,6 +68,9 @@ using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
     - Checks sourceforge download link
     - Checks version numbers in module files, NEWS file, and anywhere else it
       needs to be checked
+  - Generates shortened text for tweets
+  - Generates shortened text for the Sourceforge News/blog post
+    - Posts the news item on Sourceforge
 
 ## Release Automation TODOs ##
 - Generate release e-mail bodies using _Template::Toolkit_
