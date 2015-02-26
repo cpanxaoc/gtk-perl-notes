@@ -53,15 +53,15 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
 ## List of files to change, by module ##
 - Cairo
   - NEWS
-  - lib/Cairo.pm
+  - lib/Cairo.pm +17
   - Makefile.PL (stable/unstable flag)
 - Cairo::GObject
   - NEWS
-  - lib/Cairo/GObject.pm
+  - lib/Cairo/GObject.pm +19
   - Makefile.PL (stable/unstable flag)
 - ExtUtils::Depends
   - Changes
-  - lib/ExtUtils/Depends.pm
+  - lib/ExtUtils/Depends.pm +15
   - **NOTE:** You need to generate the `MANIFEST` file using the `Makefile`
     target `make manifest` after `perl Makefile.PL`, but prior to running
     `make dist` (`perl Makefile.PL -> make manifest -> make dist`)
@@ -69,42 +69,42 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
     running `make dist`
 - ExtUtils::PkgConfig
   - Changelog
-  - lib/ExtUtils/PkgConfig.pm
+  - lib/ExtUtils/PkgConfig.pm +27 
   - Makefile.PL (stable/unstable flag)
 - Glib
   - NEWS
-  - lib/Glib.pm
-  - lib/Glib/CodeGen.pm
-  - lib/Glib/GenPod.pm
-  - lib/Glib/MakeHelper.pm
-  - lib/Glib/Object/Subclass.pm
-  - lib/Glib/ParseXSDoc.pm
+  - lib/Glib.pm +30
+  - lib/Glib/CodeGen.pm +8
+  - lib/Glib/GenPod.pm +12
+  - lib/Glib/MakeHelper.pm +7
+  - lib/Glib/Object/Subclass.pm +23
+  - lib/Glib/ParseXSDoc.pm +16
   - Makefile.PL (stable/unstable flag, unstable block that gets output when an
     unstable release is made)
 - Glib::Object::Introspection
   - NEWS
-  - lib/Glib/Object/Introspection.pm
+  - lib/Glib/Object/Introspection.pm +22
   - Makefile.PL (stable/unstable flag)
   - See instructions below for building Glib for testing
 - Gnome2
   - NEWS
-  - Gnome2.pm
+  - Gnome2.pm +17
   - Makefile.PL (stable/unstable flag)
 - Gnome2::VFS
   - NEWS
-  - VFS.pm
+  - VFS.pm +29
   - Makefile.PL (stable/unstable flag)
 - Gnome2::Vte
   - NEWS
-  - Vte.pm
+  - Vte.pm +15
   - Makefile.PL (stable/unstable flag)
 - GStreamer
   - NEWS
-  - lib/GStreamer.pm
+  - lib/GStreamer.pm +31
   - Makefile.PL (stable/unstable flag)
 - Gtk2
   - NEWS
-  - lib/Gtk2.pm
+  - lib/Gtk2.pm +76
   - Makefile.PL (stable/unstable flag)
   - See instructions below for building Glib for testing
 - Gtk3
@@ -121,7 +121,7 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
       automagically
 - Pango
   - NEWS
-  - lib/Pango.pm
+  - lib/Pango.pm +32
   - Makefile.PL (stable/unstable flag)
 
 ## Building a copy of Glib for testing ##
