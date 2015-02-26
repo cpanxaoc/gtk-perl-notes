@@ -60,6 +60,7 @@ using the correct syntax for using the Glib/Gtk2/Gtk3 modules in Perl.
     - Sourceforge
   - Generating the e-mail for the next release due date
   - Getting `bit.ly` URLs for twits
+  - Checking regular/`bit.ly`/Sourceforge URLs for valid contents (non-404s)
 - Release Helper
   - Checkѕ for correct versions of ExtUtils::MakeMaker and CPAN::Meta
   - Generates release e-mail
