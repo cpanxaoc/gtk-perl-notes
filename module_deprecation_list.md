@@ -33,7 +33,7 @@
 
 ## Deprecation Checklist ##
 Check bugs in distributions, see if anything can quickly be fixed, otherwise
-close bugs that require changes to upstream
+hard close bugs that require changes to upstream
 - RT: https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=XAOC
 - Bugzilla: http://tinyurl.com/ootsv9n
 
@@ -44,6 +44,8 @@ CPAN Meta-Spec v2
   `Makefile.PL`; see `Cairo` commit ID `17f2def7` for an idea of what changes
   need to me made
 - http://blogs.perl.org/users/peter_rabbitson/2014/09/encourage-user-participation-via-a-single-line-patch-to-your-dist-metadata.html
+- Mark the distribution as deprecated in the metadata
+  - http://neilb.org/2015/01/17/deprecated-metadata.html
 
 `README`
 - Check to see if the project has an updated `README` file; see `Cairo` commit
