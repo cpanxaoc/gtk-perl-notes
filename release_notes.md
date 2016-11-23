@@ -113,7 +113,7 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
     `git.gnome.org`
   - Update the `dist.ini` file with the next release version
   - Update the `NEWS` file with changes since the last commit
-    - Put the changes below the line that says `${NEXT}`
+    - Put the changes below the line that says `{{$NEXT}}`
   - Call `dzil build` to build a release distribution
     - Check the files in the release distribution, using the list above
   - _DO NOT COMMIT THE UPDATED FILES_; simply call `dzil release`
