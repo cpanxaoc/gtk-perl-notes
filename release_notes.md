@@ -77,8 +77,8 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
   - lib/Glib/CodeGen.pm +8
   - lib/Glib/GenPod.pm +12
   - lib/Glib/MakeHelper.pm +7
-  - lib/Glib/Object/Subclass.pm +23
   - lib/Glib/ParseXSDoc.pm +16
+  - lib/Glib/Object/Subclass.pm +23
   - Makefile.PL (stable/unstable flag, unstable block that gets output when an
     unstable release is made)
 - Glib::Object::Introspection
