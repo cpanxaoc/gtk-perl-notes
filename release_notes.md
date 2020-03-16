@@ -69,7 +69,7 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
     running `make dist`
 - ExtUtils::PkgConfig
   - Changelog
-  - lib/ExtUtils/PkgConfig.pm +27 
+  - lib/ExtUtils/PkgConfig.pm +27
   - Makefile.PL (stable/unstable flag)
 - Glib
   - NEWS
