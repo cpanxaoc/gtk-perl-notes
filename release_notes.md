@@ -90,6 +90,18 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
   - NEWS
   - Gnome2.pm +17
   - Makefile.PL (stable/unstable flag)
+- Gnome2::Canvas
+  - NEWS
+  - META.yml +4
+  - README +1
+  - GConf.pm +30
+  - Makefile.PL (stable/unstable flag)
+- Gnome2::GConf
+  - NEWS
+  - META.yml +4
+  - README +1
+  - GConf.pm +30
+  - Makefile.PL (stable/unstable flag)
 - Gnome2::VFS
   - NEWS
   - VFS.pm +29
