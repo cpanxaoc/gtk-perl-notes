@@ -120,17 +120,19 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
   - Makefile.PL (stable/unstable flag)
   - See instructions below for building Glib for testing
 - Gtk3
-  - **DO NOT MAKE A RELEASE COMMIT**, Dist::Zilla takes care of all of
-    the files, as well as tagging and making the release commit and push to
-    `git.gnome.org`
+  - **DO NOT MAKE A RELEASE COMMIT**
+    - Dist::Zilla takes care of all of the files, as well as tagging and
+      making the release commit and push to `git.gnome.org` and uploading the
+      release tarball to Sourceforge
   - Update the `dist.ini` file with the next release version
   - Update the `NEWS` file with changes since the last commit
     - Put the changes below the line that says `{{$NEXT}}`
   - Call `dzil build` to build a release distribution
     - Check the files in the release distribution, using the list above
-  - _DO NOT COMMIT THE UPDATED FILES_; simply call `dzil release`
-    - Part of `dzil release` is to make a "release commit" with these files
-      automagically
+  - _DO NOT COMMIT THE UPDATED FILES_
+    - Simply call `dzil release`
+      - Part of `dzil release` is to make a "release commit" with these files
+        automagically, as well as uploading tarballs to CPAN and Sourceforge
 - Pango
   - NEWS
   - lib/Pango.pm +32
