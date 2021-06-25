@@ -81,6 +81,20 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
   - lib/Glib/Object/Subclass.pm +23
   - Makefile.PL (stable/unstable flag, unstable block that gets output when an
     unstable release is made)
+- Glib::IO
+  - **DO NOT MAKE A RELEASE COMMIT**
+    - Dist::Zilla takes care of all of the files, as well as tagging and
+      making the release commit and push to `git.gnome.org` and uploading the
+      release tarball to Sourceforge
+  - Update the `dist.ini` file with the next release version
+  - Update the `NEWS` file with changes since the last commit
+    - Put the changes below the line that says `{{$NEXT}}`
+  - Call `dzil build` to build a release distribution
+    - Check the files in the release distribution, using the list above
+  - _DO NOT COMMIT THE UPDATED FILES_
+    - Simply call `dzil release`
+      - Part of `dzil release` is to make a "release commit" with these files
+        automagically, as well as uploading tarballs to CPAN and Sourceforge
 - Glib::Object::Introspection
   - NEWS
   - lib/Glib/Object/Introspection.pm +22
