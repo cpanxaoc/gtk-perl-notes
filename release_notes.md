@@ -4,7 +4,7 @@ Export PKG_CONFIG_PATH to the installed version of XQuartz, so the GTK modules
 can pick up the `*.pc` file for `xcb-shm`; also need to pick up the libs for
 GTK+/Glib/Pango/Cairo from Homebrew, if used.
 
-    export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
+    export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig:/usr/local/opt/libffi/lib/pkgconfig
 
 ## Release Checklist ##
 - Check bugs in distributions, see if anything can quickly be fixed
@@ -45,7 +45,7 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
       confirmation e-mails from PAUSE
 - Announce
   - Verify URLs to Git repo and download tarballs in any posts
-  - mailing list
+  - Gnome Discourse
   - Sourceforge - https://sourceforge.net/p/gtk2-perl/news/
   - *cpanxaoc* and *GTKPerl* accounts on Twitter
     - use bit.ly to shorten URLs
