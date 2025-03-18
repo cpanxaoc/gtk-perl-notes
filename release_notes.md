@@ -10,7 +10,6 @@ GTK+/Glib/Pango/Cairo from Homebrew, if used.
 - Check bugs in distributions, see if anything can quickly be fixed
   - RT: https://rt.cpan.org/Public/Dist/ByMaintainer.html?Name=XAOC
   - Bugzilla: http://tinyurl.com/ootsv9n
-- Check copyright date in all files that have changed in the current year
 - CPAN Meta-Spec v2 - Check to see if the project has an updated `%meta_merge`
   structure in `Makefile.PL`; see `Cairo` commit ID `17f2def7` for an idea of
   what changes need to me made
